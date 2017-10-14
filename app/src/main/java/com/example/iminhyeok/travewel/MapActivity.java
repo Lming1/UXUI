@@ -80,6 +80,7 @@ public class MapActivity extends AppCompatActivity
                 WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_map);
 
+
         Log.d(TAG, "onCreate");
         mActivity = this;
 
