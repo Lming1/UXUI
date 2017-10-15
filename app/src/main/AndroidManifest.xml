@@ -34,11 +34,13 @@ package="com.example.iminhyeok.travewel">
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".NewActivity" >
+        </activity>
 
 
 
 
-        <activity android:name=".MapActivity"/>
+        <!--<activity android:name=".MapActivity"/>-->
 
 
     </application>
