@@ -9,9 +9,8 @@
     android:orientation="vertical" >
 
     <ImageView
-        android:id="@+id/splash"
         android:layout_width="wrap_content"
-        android:layout_height="617dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash"
         android:background="@drawable/splash_img" />
-
 </LinearLayout>

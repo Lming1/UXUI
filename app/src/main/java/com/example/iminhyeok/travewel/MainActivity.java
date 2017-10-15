@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
+import static com.example.iminhyeok.travewel.R.layout.activity_main;
+
 public class MainActivity extends Activity {
 
     Button button;
@@ -16,7 +18,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Get the view from activity_main.xml
-        setContentView(R.layout.activity_main);
+        setContentView(activity_main);
 
         // Locate the button in activity_main.xml
         button = (Button) findViewById(R.id.MyButton);
